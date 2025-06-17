@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Microsoft Assignment</title>
+
+  <!-- Boxicons CDN for icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      font-family: 'Segoe UI', Helvetica, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .my_nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    }
+
+    .nav-left, .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      cursor: pointer;
+    }
+
+    .nav-left img {
+      width: 22px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    #pipe img {
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
+    }
+
+    #first {
+      font-size: 20px;
+      color: #555;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    #name {
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    #Teams {
+      font-size: 12px;
+      font-weight: 500;
+      color: #2a2a2a;
+      cursor: pointer;
+    }
+
+    .Copilot {
+      font-size: 12px;
+      color: #000;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .Windows, .Surface, .Xbox, .Support {
+      font-size: 12px;
+      color: #000;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .search_item i {
+      font-size: 18px;
+      transform: rotate(-280deg);
+    }
+
+    .user_item i {
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="my_nav">
+    <div class="nav-left">
+      <img src="https://purepng.com/public/uploads/large/purepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png" alt="Microsoft Logo" />
+      <div id="first">Microsoft</div>
+      <div id="name">Microsoft 365</div>
+      <div id="Teams">Teams</div>
+      <div class="Copilot">Copilot</div>
+      <div class="Windows">Windows</div>
+      <div class="Surface">Surface</div>
+      <div class="Xbox">Xbox</div>
+      <div class="Support">Support</div>
+    </div>
+
+    <div class="nav-right">
+      <div class="resource">All Microsoft</div>
+      <div class="resource Cart">
+        Cart <i class='bx bx-cart'></i>
+      </div>
+      <div class="resource search_item">
+        Search <i class='bx bx-search'></i>
+      </div>
+      <div class="resource user_item">
+        <i class='bx bx-user'></i>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
